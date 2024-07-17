@@ -1,0 +1,229 @@
+id,title,selftext,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1e4wpkz,Explaining my db schema,,128,5,the-driving-crooner-,2024-07-16 18:56:33,https://v.redd.it/7lzop371hxcd1,False,False,False,False
+1e4kkj4,Rant: Platform Team says no,"I started working as a “DevOps” Engineer in 2012 and have been in Data Engineering since 2018. I love Data Engineering because it’s a mix of building infrastructure, and then also getting your hands dirty with coding, testing, etc.
+
+One thing that has really started to frustrate me is that the Data Platform is now often entirely controlled by DevOps/platform teams! These teams have no idea about data, they just know about networking, cloud & terraform.
+
+
+They then lock DE team permissions down to data science or analyst level where you can’t build any infra for pipelines despite the Data Engineering teams having very good knowledge of Terraform, Cloud, Networking, Data Security and everything else. Trying to explain this to them is impossible because they’re used to setting up platforms for software engineers, which doesn’t encompass the same breadth of responsibility.
+
+I doubt this is the case in startups, but anyone else at big companies who do this?
+
+",67,14,FlirtyDirtyQwerty,2024-07-16 09:45:32,https://www.reddit.com/r/dataengineering/comments/1e4kkj4/rant_platform_team_says_no/,False,False,False,False
+1e4rnwp,What’s the Hello World of Data Engineering?,"Hey! Pedram from Dagster here. Our team is focused this quarter on improving our docs, and one place I’m curious is what you all consider a good Hello World? 
+
+I was thinking database-> pandas -> S3 but thought I’d reach out to see if there are better ideas. If there’s anything specific you love or hate about our docs, please reach out!",49,32,MrMosBiggestFan,2024-07-16 15:33:20,https://www.reddit.com/r/dataengineering/comments/1e4rnwp/whats_the_hello_world_of_data_engineering/,False,False,False,False
+1e4rcjl,No automated test can compete with them,,39,4,Awkward-Cupcake6219,2024-07-16 15:20:37,https://i.redd.it/t9791lubewcd1.jpeg,False,False,False,False
+1e4mfmz,Project: ELT Data Pipeline using GCP + Airflow + Docker + DBT + BigQuery. Please review.,"ELT Data Pipeline using GCP + Airflow + Docker + DBT + BigQuery.
+
+Hii, just sharing a data engineering project I recently worked on..
+
+I built an automated data pipeline that retrieves cryptocurrency data from the CoinCap API, processes and transforms it for analysis, and presents key metrics on a near-real-time\* dashboard
+
+Project Highlights:
+
+* Automated infrastructure setup on Google Cloud Platform using Terraform
+* Scheduled retrieval and conversion of cryptocurrency data from the CoinCap API to Parquet format every 5 minutes- Stored extracted data in Google Cloud Storage (data lake) and loaded it into BigQuery (data warehouse)
+* Transformed raw data in BigQuery using Data Build Tools
+* Created visualizations in Looker Studio to show key data insights
+
+The workflow was orchestrated and automated using Apache Airflow, with the pipeline running entirely in the cloud on a Google Compute Engine instance
+
+Tech Stack: Python, CoinCap API, Terraform, Docker, Airflow, Google Cloud Platform (GCP), DBT and Looker Studio
+
+You can find the code files and a guide to reproduce the pipeline [here](https://github.com/aayomide/crypto_analytics_engineering). or check my LinkedIn post [here](https://www.linkedin.com/feed/update/urn:li:activity:7217214732288598017/) and connect ;)
+
+I'm looking to explore more data analysis/data engineering projects and opportunities. Please connect!
+
+Comments and feedback are welcome.
+
+[Data Architecture](https://i.redd.it/8aa7du7gbvcd1.gif)
+
+",16,2,aayomide,2024-07-16 11:39:17,https://www.reddit.com/r/dataengineering/comments/1e4mfmz/project_elt_data_pipeline_using_gcp_airflow/,False,1721130181.0,False,False
+1e54bsv,Thoughts on DataCamp 'Big Data with PySpark' Specialization? Will this be enough for learning PySpark?,I'm a data scientist interested in learning PySpark. I came across this specialization on DataCamp and thinking of enrolling. Is this comprehensive enough to learn PySpark? \[[Course Outline](https://app.datacamp.com/learn/skill-tracks/big-data-with-pyspark)\] Are there any better resources you would recommend instead?,10,6,altered-perceptions,2024-07-17 00:19:23,https://www.reddit.com/r/dataengineering/comments/1e54bsv/thoughts_on_datacamp_big_data_with_pyspark/,False,False,False,False
+1e4m3ry,Unleashing the Power of AI on Hoarded Data: How Apache Spark Transforms Enterprise Data Centers into Insight Engines by Leo Benkel,,9,0,tornadolobo,2024-07-16 11:20:58,https://www.ziverge.com/post/unleashing-the-power-of-ai-on-hoarded-data-how-apache-spark-transforms-enterprise-data-centers-into-insight-engines,False,False,False,False
+1e4lih8,Migrating off Matillion ,"Has anyone migrated off of matillion recently? Switching our stack to be a bit more modular with airbyte/fivetran and dbt. We've been using dbt in parallel for awhile and have some overlapping transformations. Any tools/tricks best practices to get this done quickly? Mostly I want to quickly identify any transformation done in matillion to recreate in dbt, but my limited understanding is it's a bit opaque (plus our documentation has been... Let's say artisanal at best)
+
+Appreciate anything that makes me less dumb.",7,1,ryhackett,2024-07-16 10:45:53,https://www.reddit.com/r/dataengineering/comments/1e4lih8/migrating_off_matillion/,False,False,False,False
+1e5055q,What's the catch behind DE?,"I've been investigating the role for awhile now as I'm pursuing a tech adjacent major and it seems to have a lot of what I would consider ""pros"" so it seems suspicious
+
+*  Mostly done in Python, one if not the most readable and enjoyable language (at least compared to Java)
+*  The programming itself doesn't seem to be ""hard"" or ""complex"", at least not as complex and burnout prone compared to other SWE roles, so it's perfect for those that are not ""passionate"" about it. 
+* Don't have to deal with garbage like CSS or frontend
+* Not shilled as much as DS or Web Development, probably good future ahead with ML etc.
+* Good mix of cloud infrastructure & tools, meaning you could opt for DevOps in the future
+
+
+
+What's the catch I'm not seeing behind? The only thing that raised some alarm is the ""on-call"" thing, but that actually seems to be common across all tech roles and it can't be THAT bad if people claim it has good WLB, so what's the downsides I'm not seeing?
+
+",8,22,Mobile-Print-3138,2024-07-16 21:16:20,https://www.reddit.com/r/dataengineering/comments/1e5055q/whats_the_catch_behind_de/,False,False,False,False
+1e4vp8t,Is anyone aware of a data validation library that plays nicely with Polars?,I'm looking for something functionally similar to Great Expectations to use in data pipelines. Appreciate I can marshall data frames between Pandas and Polars and use GE but I'd rather not.,4,8,H0twax,2024-07-16 18:15:50,https://www.reddit.com/r/dataengineering/comments/1e4vp8t/is_anyone_aware_of_a_data_validation_library_that/,False,False,False,False
+1e4pefb,Resumable Full Refresh: Building resilient systems for syncing data | Airbyte,,8,1,arimbr,2024-07-16 14:00:38,https://airbyte.com/blog/resumable-full-refresh-building-resilient-systems-for-syncing-data,False,False,False,False
+1e4iucx,Is my project idea good for a beginner? How to improve it?,"Here is my idea: get full transaction data from stripe api (kafka python producer) > read with a kafka python consumer > use pyspatk to clean it to keep only what i need > store results in a db > use grafana  to visualise data from db. I plan to use some orchestrator for it (like mage) but am not sure which one is best to try out. 
+
+I have experience with batch and I just managed to setup docker to run kafka producer/consumer/zookeeper/pyspark so now I am thinking about a project. Any help is appreciated 
+
+Edit: Some extra Qs
+- at what interval should I produce data (read data from stripe) given the scope of the project, is a 3s sleep good/bad? Please suggest best practices
+- should i store every new transaction i get to the db - or collect a few and then insert in the db ? Whats a best practice or idea I can follow?",7,4,Bobsthejob,2024-07-16 07:46:51,https://www.reddit.com/r/dataengineering/comments/1e4iucx/is_my_project_idea_good_for_a_beginner_how_to/,False,False,False,False
+1e51p28,Trying to confirm my understanding of a basic layering of data.,"Hello,
+
+I am a software/infra architect dipping his toe in the data engineering world. I went over couple of course, and start to grasp the different concept, but I wish to confirm my understanding is correct. I am trying to confirm I understand the different layers, what software goes in which layer, and which team should take care of what. Note that I am focusing on AWS tech simply because I am an AWS guy.
+
+My understanding is that we can consider there is (often) 4 layers in a data architecture.
+
+* First layer is data source holding raw data. This can be IoT device streaming their content, a production mysql database containing live data, or a simple documentation in a wiki. This data is not centralized and can often not be query, barely not data science request could be made on it.
+
+This layer is usually the job of the infrastructure team, data engineer/scientist will never touch it.
+
+* Second layer aggregate all this data on place under a datalake. Aggregation can be done thanks to different tool going from Kafka or any event broker, Kinesis, simple API, or CDC replication to catch mysql changes. AWS Glue seems to be also a good tool for this.
+
+The data is now centralized in one place. However it is not formatted in a way to be easily query. There is still lot of unstructured or raw events.
+
+This layer is job of infrastructure team, but data engineer could have some read access. Since datalake contains most data, you should be careful to be sure they can not read data they are not supposed to. They should at least be be aware of what data exists here and where do the data come from.
+
+-Third layer is data warehouse. Data will be read and transformed from datalake, usually with ETL process. Then saved in a datawarehouse like Redshift or Snowflake. You can have additional ETL process transforming  again the data directly from the Datawarehouse. I guess you can also feed your datawarehouse directly without passing through the datalake layer ? However you could endup sending lot of garbage (very raw data)in it if you are not careful and some process can not scale well.
+
+Infrastructure team will offer a platform so data engineer can build the different ETL they need, with permission the right permission. Engineer team create the ETL process. I guess data scientist can also make request directly to any stage of this layer
+
+-Forth layer will allow you to visualize your data. Data engineer  will build visualization dashboard. Datascientiste can also work from this layer.  After reading 5 different explanations I still do not understand why we differenciate BI from data scientiste, but I assume they mainly work on this layer.
+
+Finally if you have team for Machine Learning they can work on any layer depending on what they are trying to build.  And it is also advised to have some kind of data architect who work on every layers.
+
+So, this pretty much everything I understood. Please let me know if my understanding is incorrect, or if I am missing a important part of the architecture!",4,7,PoireauMasque,2024-07-16 22:22:11,https://www.reddit.com/r/dataengineering/comments/1e51p28/trying_to_confirm_my_understanding_of_a_basic/,False,False,False,False
+1e4whco,Help in moving from a GIS ingestion tool to open source ,"Hello all,
+I am working in a manufacturing firm, they have the data in various ERP systems which is ingested into snowflake using Informatica and it costs a lot. I want to propose a POC to use open source tools for ETL(mainly ingestion). I want your suggestions on what would be the best tools to pick in your opinion. I know it’s a very vague question, but it’ll be really helpful for me.
+Thanks.
+Ps: its GUI ingestion tool, sorry for the error ",6,3,Sea-Independence2899,2024-07-16 18:47:15,https://www.reddit.com/r/dataengineering/comments/1e4whco/help_in_moving_from_a_gis_ingestion_tool_to_open/,False,1721155830.0,False,False
+1e4i4lq,Any feedback on DE workloads on HTAP in production? (Hybrid Transactional/Analytical Processing),"Hybrid Transactional/Analytical Processing is database architecture that is able to handle both OLTP and OLAP.  
+
+For DE, it would mean that you wouldn't need to ETL the data out of the production OLTP database to put it into a data-warehouse anymore. You would run the OLAP workloads directly on the HTAP database.
+
+An example of a FOSS database implementing HTAP is TiDB. It bridges the gap by including two MySQL-compatible distributed storage engines: a row-based storage engine, and a columnar storage engine, with a ""real-time"" replication between the row storage and the columnar storage. Engines can be deployed on separate machines to isolate resources.
+
+As anyone else here, I am skeptical, but happy to listen to production experience. In particular:
+
+1. I wonder if the OLAP performance are actually competitive compared to other OLAP engines for non-trivial workloads. Even if you don't need to extract and load anymore, it is still required to remodel the data for analytics.
+2. I am uncomfortable at the idea of running data processing and analytics on a production databases. How good the isolation actually is?
+
+
+For reference, there was one post in this community about HTAP almost 2 years ago with little feedback: https://reddit.com/r/dataengineering/comments/z850vy/translyticalhtap_databases_what_does_de_need_from/",4,1,sib_n,2024-07-16 06:59:03,https://www.reddit.com/r/dataengineering/comments/1e4i4lq/any_feedback_on_de_workloads_on_htap_in/,False,False,False,False
+1e4wlvg,Education  Content Based Data Project,"TL;DR:  What kind(s) of **software** eg. Snowflake, Databricks, Tableu should I use if I want to create a data engineering + analysis project that would fit well within an education environment (corporate or public school is fine).   
+
+Alternatively:  Is it obvious I'm asking the **wrong question**?  I'd value any related advice you have.  
+
+Example of what might be a better question if software used  is trivial or unimportant: What project idea do you suggest?  Eg. I could  find data on what computer programming jobs are  the most in demand and  compare  that with other data on those languages, such as survey data on how long it takes to develop  proficiency.   As an example of  a project  likely to generate  both corporate and  public school interest.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+I'm transitioning from STEM  education to the data field.  
+
+I would like to create my next data engineering and analysis portfolio piece in a way that also acts as a STEM education project.  IE.  A project that could double as educational material for engineering, math, or computer science either in an education or corporate context.
+
+This is partly to have a project that helps bridge my education experience to my more modest data expertise.  But it's also so that I can have a portfolio project that looks excellent a position in education which is not necessarily data focused.  Since I may not be able to secure a data position soon I would like it to help me get other education positions too.  ",3,1,MathMindfully,2024-07-16 18:52:21,https://www.reddit.com/r/dataengineering/comments/1e4wlvg/education_content_based_data_project/,False,False,False,False
+1e4r7v2,Let's discuss optimizations when volume of data is shot in the dark. New to DE and feeling lost ,"Hey All!
+I am new to DE and have been feeling so lost. I usually work on data pipelines, but the catch is a certain pipeline that I build works in lower environment but as we go to higher environments the data just blasts, and my airflow pod runs out of resources. I just feel so terrible when this happens because I feel like I am a bad engineer. Take for example what happened recently:
+1. A pipeline that reads from a table where we have object ids as primary key and with each unique object we have certain datasets attached. I extract the attached datasets for each objects, get their metadata from our catalog. And add this information to sink table where dataset IDs are pks 
+2. Now the catch is that with one object we may have so many datasets attached, and dataset metadata volume depends on factors like columns and other metadata info, so that is also variable 
+3. In my previous attempts to optimise I did batching as in I was only ingesting datasets attached to 100 objects at a time.
+4. So when I ran this optimization it worked till pre production.
+5. Now when I ran the pipeline in production it ran for 4 batches and in 5th batch the data became 20times more because of attached objects being more on source table and my pipeline task got killed.
+
+How would a senior DE handle this situation? I feel dejected that even though I tried to optimise at my level but there are like way too many unknowns here like the number of datasets with each object and the volume of data across environments. Do I need to ask more questions while designing pipelines ",3,3,sophisticationmiss,2024-07-16 15:15:24,https://www.reddit.com/r/dataengineering/comments/1e4r7v2/lets_discuss_optimizations_when_volume_of_data_is/,False,1721143719.0,False,False
+1e4p89o,Which offer should I pick if my end goal is to become a data engineer as soon as possible?,"Hi guys,
+
+Currently deciding between two roles; a sales operations associate vs. a RevOps analyst.
+
+For context I have a background as a Sales Development Rep at a tech company with a decently technical background & want to eventually become a data engineer in the near future.
+
+RevOps analyst seems like the obvious choice since I will directly be working with data, however the company of the first role are quite open to the idea of letting their employees forge their desired career path and so I think theres an opportunity to eventually become a data engineer at that company even though that role doesn't strictly work with data.
+
+Essentially, I prefer the first role (because of the company/people/location) but I will pick the RevOps position if it significantly improves my odds of becoming a data engineer in the near future. Any advice?
+
+Thanks in advance!",4,8,Information-Famous,2024-07-16 13:53:22,https://www.reddit.com/r/dataengineering/comments/1e4p89o/which_offer_should_i_pick_if_my_end_goal_is_to/,False,False,False,False
+1e4ms4r,"Pcodec: a futuristic codec for numerical data, now in Zarr","I started Pcodec (Pco) as a wild idea about 3 years ago: replace LZ77/78 compression on numbers with numerical binning + entropy encoding. It worked. Pcodec (and its earlier predecessor by a different name) get substantially better compression than alternatives - often by [1.4-2x on natural data with faster speed](https://github.com/mwlon/pcodec/blob/main/docs/benchmark_results.md).
+
+Now Pco [is supported in the Zarr format](https://numcodecs.readthedocs.io/en/stable/pcodec.html). I'm very excited about this, since it will reach a lot more users. I'd like to add it to major columnar formats as well.
+
+If you'd like to learn about it in more detail, [the README.md](https://github.com/mwlon/pcodec) has some information.
+
+Pedantic caveat: there is no completely free lunch, just tradeoffs. Every codec expresses a prior of the distribution of datasets, and Pco's typically matches real world distributions much better. But of course, LZ77/78-based codecs can beat Pco in rare or antagonistic cases.",3,2,mwlon,2024-07-16 11:58:10,https://www.reddit.com/r/dataengineering/comments/1e4ms4r/pcodec_a_futuristic_codec_for_numerical_data_now/,False,False,False,False
+1e4xdff,Seeking Advice on Automating Email Campaign for Product Launch Using Azure Tech Stack or other free or cheap options ,"I need your advice on a task I've been assigned at work. My employer wants to email about 4000 people (we have the information in an Excel sheet) regarding a product they just launched. They want to try this out for the first 3 months without making significant investments.
+
+We primarily use the Azure tech stack, and I initially considered merging Gmail and Google Sheets for this purpose. However, I encountered a limitation of 100 emails per day on the free plan.
+
+Could you suggest any solutions or approaches using Azure services that could help automate this email campaign efficiently? ",2,1,mysterious_code,2024-07-16 19:23:27,https://www.reddit.com/r/dataengineering/comments/1e4xdff/seeking_advice_on_automating_email_campaign_for/,False,False,False,False
+1e4nc3u,Python UDFs in Snowflake,,0,0,Datafluent,2024-07-16 12:26:02,https://i.redd.it/f9pma2y9jvcd1.png,False,False,False,False
+1e5943l,What do you consider the critical capabilities in Lakehouses,I’m doing some evaluation of lakehouses and I thought that it might be useful to ask this community. What is the most important factor and capability that sways your decision on which lakehouse to use? Have you ever participated in an evaluation of a lakehouse? ,1,0,One_Board_4304,2024-07-17 04:19:41,https://www.reddit.com/r/dataengineering/comments/1e5943l/what_do_you_consider_the_critical_capabilities_in/,False,False,False,False
+1e57w2z,AWS Glue + Spark Structured streaming?,"i’m ingesting a kinesis stream into aws glue using a glue studio script. I want to use spark windowing do aggregate 5 minutes of data at a time. Can i make the data frame with a glueContext.create_data_frames_from_options{kinesis options etc}, set up my windows and columns, and then query it and use writeStream.start()?",1,0,ohoian,2024-07-17 03:13:09,https://www.reddit.com/r/dataengineering/comments/1e57w2z/aws_glue_spark_structured_streaming/,False,False,False,False
+1e57qv3,"How do I redesign and index my database? 100M unique rows, 32k unique keys. I am using SQL server.","What database optimization such as indexing, sharding ,partitioning, caching would you recommend, and what type of database architecture would you suggest, for a database of 100M unique rows and 32k unique keys?
+
+* The database will have about 100,000,000 unique rows and will continue to have 1000s more rows added to it every day because of the business use case. It could have 1,000,000,000 rows in the database within a few years.
+* I have a question: I am using NVCHAR(MAX) for appropriate field results in performance degradtion?
+* We really only care about reducing query time, so optimization such as indexing, sharding ,partitioning is our priority. Is there any good guide on such topics?
+* Also, is there a good guide on database architecture for optimization?
+
+Looking to learn something new, suggest away! :)",1,4,Notalabel_4566,2024-07-17 03:05:37,https://www.reddit.com/r/dataengineering/comments/1e57qv3/how_do_i_redesign_and_index_my_database_100m/,False,False,False,False
+1e4yt5e,Has anyone ever worked with the Workday HCM table schema in Snowflake via Fivetran integration?,"Looking to see how a relationship is established between a few tables 
+`worker_position_history` , `worker_position_organization_history` , and `organization`. I want to see a workers job history and max `organization.sub_type` associated with that job. 
+
+can't seem to find a relationship because position_id nor effective_date are included in the bridge table to organization table or the org table itself. 
+
+Anyone have any experience with this?",1,0,nidenikolev,2024-07-16 20:22:08,https://www.reddit.com/r/dataengineering/comments/1e4yt5e/has_anyone_ever_worked_with_the_workday_hcm_table/,False,False,False,False
+1e4yr1e,"Scraping, data engineering and SaS","I've developed a few pipelines based on scraping API's, GraphQL, html, etc for personal projects and dummy examples. However, recently and with the integration of LLM's in structuring scraped data, i noticed it has become much easier to both develop these solutions and integrate data from multiple sources.
+
+  
+That being said, I'm looking to develop a SaS where my business model is to scrape data from multiple comercial websites from a specific industry, integrate the data in a unified schema and offer business services on top of that (such as integration with analytics layers or API's).
+
+
+
+Has anyone ever done this? Im worried to build a product around infrastructure that isn't mine. I'm asking this question in this sub because the feasibility of the project would 100% depend on the ability to build and maintain these pipelines.",1,1,Different_Fee6785,2024-07-16 20:19:45,https://www.reddit.com/r/dataengineering/comments/1e4yr1e/scraping_data_engineering_and_sas/,False,False,False,False
+1e4r13a,Balancing solving business problems and tool proficiency,"With how important it being to solve business problems, how do you all balance that and knowing specific tech stacks, especially ones you don't use at work? Mostly asking for future job prospects.
+
+I'm pretty comfy with my team's current tech stack and have been focusing more on identifying and addressing business and user problems. I've gotten feedback that I should 'be more technical,' but I don't see any opportunities for this.
+
+With personal projects, would prospective hiring managers even look at these on a rêsumê or care? Is it about the learning process more-so than the end result? 
+
+I'd really appreciate hearing how others manage these two.",1,3,Tough_Bag_458,2024-07-16 15:07:40,https://www.reddit.com/r/dataengineering/comments/1e4r13a/balancing_solving_business_problems_and_tool/,False,False,False,False
+1e4o8pp,Data Extraction Tools,"Hey guys, I am new to this sub and wanted to ask if any of you guys are aware of any tooling. Background, I’m a manager of three different customer implementation teams for a SaaS company, and there is a lot of push to reduce turn times. 
+
+When additional headcount’s aren’t an option, I decided to explore companies that offer data extraction tooling whether that is by script or AI, but I haven’t had any luck so I figured to reach out to you all.
+
+What I am looking for is a tool that can extract specific data points from a formatted report in .pdf to a pre-populated excel sheet that just needs those values entered in.
+
+I have tried fivetran, however they declined the demo as we are not in their target market.
+
+Please note I have limited knowledge on scripts or engineering, but I am happy to relay questions to my team members if needed.
+
+I would appreciate any insight or guidance you can give, and feel free to message me in case you have more in-depth questions! ",1,2,Puzzleheaded_Dot7177,2024-07-16 13:09:28,https://www.reddit.com/r/dataengineering/comments/1e4o8pp/data_extraction_tools/,False,False,False,False
+1e4s9y6,Core Components for an Effective Data Mesh Strategy,"Centralized data management bottlenecks can significantly hinder organizational efficiency. A data mesh strategy, which decentralizes data ownership and enhances accessibility, may provide the solution by aligning data with domain expertise, eliminating silos, and improving efficiency.
+
+**Core Components:**
+
+1. **Domain-Oriented Decentralized Ownership**: Distributes data management within business domains, allowing those with the most knowledge about the data to control it. This enhances data accuracy and contextual relevance. Each domain is responsible for its data pipelines, ensuring alignment with business needs and reducing processing latency.
+2. **Data as a Product**: Treats data as a valuable, discoverable, and trustworthy asset. This involves defining clear ownership, quality metrics, and SLAs for data products, ensuring consistent and reliable data that meets user needs. The focus is on making data easily accessible and usable, similar to a well-maintained product.
+3. **Federated Computational Governance**: Combines global standards with domain-specific flexibility, allowing for consistent governance across the organization while enabling domains to implement relevant policies. Centralized policies ensure compliance and security, while domain-specific implementations enhance efficiency. This model supports the enforcement of data standards and policies without hindering domain agility.
+4. **Self-Service Data Infrastructure**: Provides users across the organization with tools for easy access, discovery, cataloging, lineage tracking, and quality monitoring of data. This reduces reliance on centralized IT teams and promotes an agile, responsive data environment. The infrastructure must support scalability, security, and interoperability across various data sources and tools, enabling efficient data utilization.
+
+Implementing a data mesh strategy involves overcoming technical and organizational challenges. It requires a shift towards decentralized data ownership, the development of a robust self-service infrastructure, and the adoption of federated governance models. However, the benefits include improved data accessibility, higher data quality, and increased organizational agility.
+
+For a detailed exploration of mastering your data mesh strategy, read the full article [here](https://www.secoda.co/blog/mastering-the-mesh-core-components-for-an-effective-data-mesh-strategy)",0,0,secodaHQ,2024-07-16 15:58:34,https://www.reddit.com/r/dataengineering/comments/1e4s9y6/core_components_for_an_effective_data_mesh/,False,False,False,False
+1e4p0g0,Building a community ,"
+I post Instagram content, YouTube videos on data engineer related stuff and also latest job openings, plus I've added a huge collection of free ebooks and Notes for DE, DS jobs preparations
+Please support 
+
+",0,0,xcxzero,2024-07-16 13:43:58,https://chat.whatsapp.com/BoTY6Ynn7h5JeichU8Ybcb,False,False,False,False
+1e4l4f0,Book on Fivetran,"Fivetran helps you build and manage your data pipelines. It offers low-code ETL for analytics 
+
+Recently it has launched a Managed Data Lake Service. Many surveys list Fivetran as one of the top tools in a data engineer's kitty.
+
+We want to know if you would want to buy a consolidated, structured book on Fivetran?   
+Thank you for your input.  
+
+
+Product Manager
+
+Packt
+
+[View Poll](https://www.reddit.com/poll/1e4l4f0)",0,0,groVpckt,2024-07-16 10:20:55,https://www.reddit.com/r/dataengineering/comments/1e4l4f0/book_on_fivetran/,False,False,False,False
